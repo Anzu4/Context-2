@@ -10,9 +10,6 @@ const Event = db.define('event', {
     type: Sequelize.DATEONLY,
     allowNull: false
   },
-  category: {
-    type: Sequelize.STRING
-  },
   description: {
     type: Sequelize.TEXT
   },
