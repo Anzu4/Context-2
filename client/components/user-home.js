@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
+import Button from '@material-ui/core/Button'
 
 /**
  * COMPONENT
@@ -11,6 +12,9 @@ export const UserHome = props => {
   return (
     <div>
       <h3>Welcome, {email}</h3>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </div>
   )
 }
